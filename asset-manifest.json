@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/memory-card/static/css/main.3b48ecfb.css",
+    "main.js": "/memory-card/static/js/main.af8d8200.js",
+    "static/media/decor.jpeg": "/memory-card/static/media/decor.c115bb924424cb7f56be.jpeg",
+    "static/media/wall.jpeg": "/memory-card/static/media/wall.a5bc23471b7a97fdc255.jpeg",
+    "static/media/view.jpeg": "/memory-card/static/media/view.9e7b1b7492de47d3c751.jpeg",
+    "static/media/white_planter.jpeg": "/memory-card/static/media/white_planter.3cb91081ca3210fecf65.jpeg",
+    "static/media/table_chair.jpeg": "/memory-card/static/media/table_chair.ee07e4478393bfc60bd3.jpeg",
+    "static/media/plant.jpeg": "/memory-card/static/media/plant.ffaaec11051594cb12ec.jpeg",
+    "static/media/drawing.jpeg": "/memory-card/static/media/drawing.0b4909d034d9158361cc.jpeg",
+    "static/media/leaf.jpeg": "/memory-card/static/media/leaf.76637db93e96c72da5b0.jpeg",
+    "static/media/planter.jpeg": "/memory-card/static/media/planter.4c6b517f54c16e5c22a6.jpeg",
+    "index.html": "/memory-card/index.html",
+    "main.3b48ecfb.css.map": "/memory-card/static/css/main.3b48ecfb.css.map",
+    "main.af8d8200.js.map": "/memory-card/static/js/main.af8d8200.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3b48ecfb.css",
+    "static/js/main.af8d8200.js"
+  ]
+}
