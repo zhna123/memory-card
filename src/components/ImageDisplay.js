@@ -10,13 +10,11 @@ import wallImage from "../images/wall.jpeg"
 import drawingImage from "../images/drawing.jpeg"
 
 import uniqid from 'uniqid';
-import { click } from "@testing-library/user-event/dist/click";
 
 const ImageDisplay = ({incrementScore, resetScore, incrementBestScore}) => {
 
-    // const originalImages = [plantImage, leafImage, decorImage, planterImage, 
-    //     whitePlanterImage, tableChairImage, viewImage, wallImage, drawingImage];
-    const originalImages = [plantImage, leafImage, decorImage];
+    const originalImages = [plantImage, leafImage, decorImage, planterImage, 
+        whitePlanterImage, tableChairImage, viewImage, wallImage, drawingImage];
 
     const indexedImages = originalImages.map(item => {
         return {id: uniqid(), image: item}

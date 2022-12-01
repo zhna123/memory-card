@@ -7,7 +7,7 @@ import "../styles/style.css"
 
 const Game = () => {
 
-    const highestScore = 3;
+    const highestScore = 9;
 
     const [score, setScore] = useState(0)
     const [bestScore, setBestScore] = useState(0);
@@ -33,7 +33,7 @@ const Game = () => {
     return (
         <div className="gameboard">
             
-            <Header score = {score} bestScore = {bestScore} setBestScore = {setBestScore} />
+            <Header score = {score} bestScore = {bestScore} highestScore = {highestScore} setBestScore = {setBestScore} />
 
             { bestScore === highestScore ? <button className="again_btn" onClick={reloadPage}>Play Again</button> :
 

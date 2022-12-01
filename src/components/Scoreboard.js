@@ -1,9 +1,9 @@
 import React, { useEffect } from "react";
 
-const Scoreboard = ({score, bestScore, setBestScore}) => {
+const Scoreboard = ({score, bestScore, highestScore, setBestScore}) => {
 
     useEffect(() => {
-        if (score === 3) {
+        if (score === highestScore) {
             setBestScore(score);
         }
     }, [score])
