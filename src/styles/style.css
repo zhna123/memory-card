@@ -1,0 +1,46 @@
+html, body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.gameboard {
+    height: 100vh;
+    padding: 20px;
+}
+
+.header {
+    height: 20%;
+    position: relative;
+    color: darkgreen;
+}
+
+.image_display {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 20px;
+}
+
+.image_display > img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.scoreboard {
+    position: absolute;
+    right: 0;
+    top: 30%;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.again_btn {
+    border: 3px solid darkgreen;
+    border-radius: 5px;
+    width: 130px;
+    height: 40px;
+    font-size: 1.2rem;
+    color: darkgreen;
+    font: inherit;
+    font-weight: bold;
+}
+
